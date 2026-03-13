@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Prompt;
+  animation: fadeInAnimation 1.5s;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.eccs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 114px;
+  color: #c9c9c9;
+  background-color: #3a5386;
+  letter-spacing: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar {
+  position: fixed;
+  right: 0rem;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 999;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-style: italic;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar-number {
+  width: 30px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  font-size: 13px;
+  color: #d2d2d2;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Prompt";
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+/* Seção ativa */
+.sidebar-number.active {
+
+
+
+  transform: scale(1.2);
+
+  color: #d2d2d2;
+  border: none;
+  font-family: "Prompt";
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+
+.sidebar-line {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 6px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar-line-fill {
+  position: absolute;
+  top: 0;
+  /* <<< ESSENCIAL */
+  width: 100%;
+  height: 0%;
+  background: #ffffff;
+  transition: height 0.15s linear;
+}
+
+
+/* Linha da seção ativa */
+.sidebar-line.active-line {
+  background-color: #d2d2d2;
+
+
+
+
+
+
+}
+
+
+.color {
+
+  height: 100vh;
+  background-color: #3a5386;
+}
+
+.eccstexttop {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7rem;
+  letter-spacing: 0.3px;
+  color: #c9c9c9;
+
+}
+
+.eccstextbottom {
+  font-size: 25px;
+  font-weight: 200;
+  padding: 7rem;
+  width: 23%;
+  letter-spacing: 0.3px;
+  color: #c9c9c9;
+
+}
+
+.titleservico {
+  font-size: 60px;
+  width: 700px;
+
+  line-height: 125%;
+  color: #c9c9c9;
+  border-left: 2px solid #c9c9c9;
+  height: 40vh;
+  padding-left: 1rem;
+
+}
+
+.divtitleservico {
+  padding-left: 8rem;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.divfullservico {
+  height: 100vh;
+  background-color: #3a5386;
+
+
+}
+
+.divboards {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+}
+
+.boards {
+
+  padding: 3rem;
+  background-color: #3f4a77;
+  clip-path: polygon(24px 0%,
+      100% 0%,
+      100% calc(100% - 24px),
+      calc(100% - 24px) 100%,
+      0% 100%,
+      0% 24px);
+  color: #c9c9c9;
+
+
+}
+
+.titles {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+
+.h2boards {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  width: 400px;
+  font-weight: 200;
+
+
+
+}
+
+
+
+.infos {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+
+  background-color: #3a5386;
+  color: #c9c9c9;
+
+
+}
+
+.infos-title {
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: 1.2px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* linhas */
+
+.infos-title span {
+  display: block;
+}
+
+/* deslocamento lateral para criar o design */
+
+.l1 {
+  transform: translateX(-40px);
+}
+
+.l2 {
+  transform: translateX(-10px);
+}
+
+.l3 {
+  transform: translateX(-70px);
+}
+
+.l4 {
+  transform: translateX(-20px);
+}
+
+.l5 {
+  transform: translateX(60px);
+}
+
+.l6 {
+  transform: translateX(120px);
 }
