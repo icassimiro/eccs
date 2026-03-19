@@ -565,7 +565,15 @@
 @media screen and (max-width: 1000px) {
   .eccstextbottom {
     margin-top: 2rem;
+
   }
+
+  .titleservico {
+    font-size: 45px;
+    width: 450px;
+  }
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -575,5 +583,27 @@
 
   .eccsimg {
     width: 500px;
+  }
+
+  .boards {
+    width: 300px;
+  }
+
+  .h2boards {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .divinfotop {
+    padding: 2rem;
+  }
+
+  .eccstextbottom {}
+
+  .zero {}
+
+  .divfullservico {
+    padding: 2rem;
   }
 }
