@@ -10,15 +10,79 @@
 
 }
 
+
 .eccs {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  font-size: 114px;
-  color: #c9c9c9;
-  background-color: #3a5386;
-  letter-spacing: 5px;
+}
+
+/* texto grande */
+.eccstext {
+  position: relative;
+  font-size: 230px;
+  /* ajuste conforme seu layout */
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #aab2c5;
+  z-index: 999;
+}
+
+/* imagem dentro do texto */
+.eccsimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  /* ajuste fino */
+  pointer-events: none;
+  opacity: 1;
+  z-index: -999;
+  filter: drop-shadow(0 10px 45px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 20px rgba(100, 150, 255, 0.4));
+}
+
+.divhrinfo {
+  display: flex;
+  justify-content: center;
+  background: #2f4674;
+
+}
+
+.hrinfo {
+
+  width: 500px;
+  height: 0.1vh;
+  border: 1px solid #aab2c5;
+
+  background-color: #aab2c5;
+
+
+  margin-top: 2.5rem;
+
+
+
+}
+
+/* animação só na imagem */
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%) translateY(0px);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) translateY(-12px);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) translateY(0px);
+  }
 }
 
 .sidebar {
@@ -51,7 +115,7 @@
   cursor: pointer;
   transition: all 1s ease-in-out;
   font-size: 13px;
-  color: #d2d2d2;
+  color: #aab2c5;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -68,7 +132,7 @@
 
   transform: scale(1.2);
 
-  color: #d2d2d2;
+  color: #aab2c5;
   border: none;
   font-family: "Prompt";
   font-style: italic;
@@ -80,7 +144,7 @@
 .sidebar-line {
   width: 1px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.15);
+  background: #aab2c5;
   margin: 6px auto;
   position: relative;
   overflow: hidden;
@@ -92,14 +156,14 @@
   /* <<< ESSENCIAL */
   width: 100%;
   height: 0%;
-  background: #ffffff;
+  background: #2f4674;
   transition: height 0.15s linear;
 }
 
 
 /* Linha da seção ativa */
 .sidebar-line.active-line {
-  background-color: #d2d2d2;
+  background-color: #aab2c5;
 
 
 
@@ -108,29 +172,102 @@
 
 }
 
+.iconssocial {
+  color: #2f4674;
+  font-size: 23px;
+
+
+
+
+}
+
+.divsocials {
+  display: flex;
+  align-items: center;
+  color: #aab2c5;
+  font-size: 28px;
+  border-left: 2px solid #aab2c5;
+  gap: 0.3rem;
+  padding: 0.5rem;
+}
+
+.socials {
+  color: #aab2c5;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+
+
+
+}
+
+.number {
+  font-size: 55px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 100%;
+
+
+}
+
+.divzero {
+  background-color: #2f4674;
+}
+
+.zero {
+  font-weight: 800;
+  font-size: 100px;
+  color: #aab2c5;
+  font-style: italic;
+}
+
+.zero1 {
+  font-weight: 800;
+  font-size: 100px;
+  color: #aab2c5;
+  font-style: italic;
+  padding-left: 5rem;
+  line-height: 150%;
+}
+
+.zero4 {
+  font-weight: 800;
+  font-size: 100px;
+  color: #aab2c5;
+  font-style: italic;
+  padding-left: 5rem;
+}
 
 .color {
 
   height: 100vh;
-  background-color: #3a5386;
+  background-color: #2f4674;
+  padding-bottom: 5rem;
+
 }
 
 .eccstexttop {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 7rem;
-  letter-spacing: 0.3px;
-  color: #c9c9c9;
+  font-size: 22px;
+  font-weight: 800;
+
+  letter-spacing: 0.5px;
+  color: #aab2c5;
+  border-left: 2px solid #aab2c5;
+  padding: 1rem;
 
 }
 
 .eccstextbottom {
   font-size: 25px;
   font-weight: 200;
-  padding: 7rem;
-  width: 23%;
+
+  width: 350px;
   letter-spacing: 0.3px;
-  color: #c9c9c9;
+  color: #aab2c5;
+  font-style: italic;
+  border-left: 2px solid #aab2c5;
+  margin-left: 5rem;
+  padding: 1rem;
 
 }
 
@@ -138,64 +275,150 @@
   font-size: 60px;
   width: 700px;
 
-  line-height: 125%;
-  color: #c9c9c9;
-  border-left: 2px solid #c9c9c9;
-  height: 40vh;
+  line-height: 110%;
+  color: #aab2c5;
+  border-left: 2px solid #aab2c5;
+  height: 100%;
   padding-left: 1rem;
+  padding-bottom: 1rem;
 
 }
 
-.divtitleservico {
-  padding-left: 8rem;
-  padding-top: 8rem;
-  padding-bottom: 2rem;
-}
+.infos-title {}
+
+.divtitleservico {}
+
+
 
 .divfullservico {
-  height: 100vh;
-  background-color: #3a5386;
+  height: 85vh;
+  background-color: #2f4674;
+  padding-left: 5rem;
 
 
+
+
+}
+
+
+
+
+
+
+.divinfos {
+  background-color: #2f4674;
+
+}
+
+.divinfotop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
 }
 
 .divboards {
 
   width: 100%;
   display: flex;
-  justify-content: center;
+
   gap: 3rem;
+
+
+
+
+
+
+
+}
+
+.wpp {
+  font-size: 18px;
+  font-weight: 400;
+  color: #2f4674;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  letter-spacing: 0.3px;
+}
+
+.buttonwpp {
+  border: none;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+
+}
+
+.divsocialtop {
+  background-color: #aab2c5;
+
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
 
 }
 
 .boards {
 
   padding: 3rem;
-  background-color: #3f4a77;
+  background-color: #aab2c5;
   clip-path: polygon(24px 0%,
       100% 0%,
       100% calc(100% - 24px),
       calc(100% - 24px) 100%,
       0% 100%,
       0% 24px);
-  color: #c9c9c9;
+  color: #2f4674;
+  margin-top: 1.5rem;
+
+
 
 
 }
 
 .titles {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 700;
   letter-spacing: 0.3px;
+  line-height: 100%;
 }
 
 
-.h2boards {
-  font-size: 18px;
-  letter-spacing: 0.3px;
-  width: 400px;
-  font-weight: 200;
 
+.h2boards {
+  font-size: 22px;
+  letter-spacing: 0.3px;
+  width: 380px;
+  font-weight: 200;
+  line-height: 125%;
+  padding-top: 0.6rem;
+
+
+
+
+}
+
+.hr {
+  width: 20px;
+  border: 1px solid #2f4674;
+
+}
+
+.strongnumber {
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
 
 
 }
@@ -204,7 +427,7 @@
 
 .infos {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   display: flex;
   justify-content: center;
@@ -212,11 +435,49 @@
   width: 100%;
 
 
-  background-color: #3a5386;
-  color: #c9c9c9;
+  background-color: #2f4674;
+  color: #aab2c5;
 
 
 }
+
+.eccstextinfo {
+  color: #aab2c5;
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+
+}
+
+.siga {
+  color: #aab2c5;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.divcopy {
+  display: flex;
+  justify-content: center;
+}
+
+.copy {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 3rem;
+
+  color: #aab2c5;
+  letter-spacing: 0.5px;
+  padding-bottom: 0.1rem;
+}
+
+.socialinfo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
 
 .infos-title {
   font-size: 84px;
@@ -226,6 +487,8 @@
 
   display: flex;
   flex-direction: column;
+
+  align-items: center;
 
 }
 
@@ -238,25 +501,63 @@
 /* deslocamento lateral para criar o design */
 
 .l1 {
-  transform: translateX(-40px);
+  transform: translateX(0px);
 }
 
 .l2 {
-  transform: translateX(-10px);
+  transform: translateX(100px);
 }
 
 .l3 {
-  transform: translateX(-70px);
+  transform: translateX(-100px);
 }
 
 .l4 {
-  transform: translateX(-20px);
+  transform: translateX(100px);
 }
 
 .l5 {
-  transform: translateX(60px);
+  transform: translateX(-100px);
 }
 
 .l6 {
-  transform: translateX(120px);
+  transform: translateX(100px);
+}
+
+@media screen and (max-width: 1700px) {
+  .divfullservico {
+    height: 100%;
+
+  }
+
+
+
+  .divboards {
+    flex-direction: column;
+
+  }
+
+  .color {
+    padding-bottom: 0;
+  }
+
+  .boards {
+    width: 400px;
+  }
+
+  .eccstextbottom {}
+
+  .divboards {
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .eccsimg {
+    width: 600px;
+  }
+
+  .eccstext {
+    font-size: 200px;
+  }
 }

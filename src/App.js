@@ -5,6 +5,7 @@ import Sidebar from './Sidebar';
 import Servicos from './Servicos';
 import Sobre from './Sobre';
 import Infos from './Infos';
+import Social from './Social';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <section id="sobre" className="section"><Servicos /></section>
         <section id="colecao" className="section"><Sobre /></section>
         <section id="equipe" className="section"><Infos /></section>
+        <section id="contato" className="section"><Social /></section>
 
       </main>
     </div>
