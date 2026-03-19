@@ -611,6 +611,14 @@
     width: 300px;
   }
 
+  .color {
+    height: 100%;
+  }
+
+  .zero1 {
+    padding-left: 2rem;
+  }
+
   .h2boards {
     width: 300px;
   }
@@ -663,6 +671,10 @@
 
   .l6 {
     transform: translateX(50px);
+  }
+
+  .zero4 {
+    padding-left: 2rem;
   }
 }
 
@@ -732,5 +744,9 @@
   .l6 {
     transform: translateX(30px);
   }
+
+  .wpp {}
+
+
 
 }
