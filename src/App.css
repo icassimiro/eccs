@@ -490,6 +490,7 @@
 
   align-items: center;
 
+
 }
 
 /* linhas */
@@ -509,11 +510,11 @@
 }
 
 .l3 {
-  transform: translateX(-100px);
+  transform: translateX(-60px);
 }
 
 .l4 {
-  transform: translateX(100px);
+  transform: translateX(70px);
 }
 
 .l5 {
@@ -521,7 +522,7 @@
 }
 
 .l6 {
-  transform: translateX(100px);
+  transform: translateX(110px);
 }
 
 @media screen and (max-width: 1700px) {
@@ -534,6 +535,7 @@
 
   .divboards {
     flex-direction: column;
+    gap: 1.5rem;
 
   }
 
@@ -559,6 +561,12 @@
 
   .eccstext {
     font-size: 200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .infos-title {
+    font-size: 60px;
   }
 }
 
