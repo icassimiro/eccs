@@ -36,7 +36,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 850px;
+  width: 550px;
   /* ajuste fino */
   pointer-events: none;
   opacity: 1;
@@ -557,7 +557,7 @@
 
 @media screen and (max-width: 1300px) {
   .eccsimg {
-    width: 600px;
+    width: 400px;
   }
 
   .eccstext {
@@ -604,11 +604,12 @@
   }
 
   .eccsimg {
-    width: 500px;
+    width: 350px;
   }
 
   .boards {
-    width: 300px;
+    width: 310px;
+    padding: 2rem;
   }
 
   .color {
@@ -676,6 +677,10 @@
   .zero4 {
     padding-left: 2rem;
   }
+
+  .hrinfo {
+    width: 350px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -709,17 +714,39 @@
     width: 300px;
   }
 
-  .boards {
-    width: 270px;
+  .hrinfo {
+    width: 200px;
   }
 
   .infos-title {
-    font-size: 38px;
+    font-size: 25px;
   }
 
   .eccstextinfo {
     font-size: 50px;
+
   }
+
+  .eccstext {
+    font-size: 100px;
+  }
+
+  .eccsimg {
+    width: 250px;
+
+  }
+
+  .eccs {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .divinfotop {
+    padding-bottom: 0;
+  }
+
+
+  .infos {}
 
   .l1 {
     transform: translateX(0px);
@@ -746,6 +773,10 @@
   }
 
   .wpp {}
+
+
+
+
 
 
 
