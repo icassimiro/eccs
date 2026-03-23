@@ -7,6 +7,7 @@
   -webkit-tap-highlight-color: transparent;
   background-color: transparent;
 
+    background: #2f4674;
 
 
 }
@@ -54,6 +55,7 @@
   opacity: 1;
   z-index: -999;
   filter: drop-shadow(0 10px 45px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 20px rgba(100, 150, 255, 0.4));
+  background-color: transparent;
 }
 
 .divhrinfo {
@@ -274,6 +276,7 @@ button{
   font-weight: 800;
   font-style: italic;
   line-height: 100%;
+  background-color: transparent;
 
 
 }
@@ -461,6 +464,7 @@ button{
   font-weight: 700;
   letter-spacing: 0.3px;
   line-height: 100%;
+  background-color: transparent;
 }
 
 
@@ -472,6 +476,7 @@ button{
   font-weight: 200;
   line-height: 125%;
   padding-top: 0.6rem;
+  background-color: transparent;
 
 
 
@@ -488,6 +493,7 @@ button{
   font-size: 50px;
   font-weight: 800;
   font-style: italic;
+  background-color: transparent;
 
 
 }
@@ -598,11 +604,12 @@ button{
   .divfullservico {
     height: 100%;
 
+
   }
 
   .buttonwpp {
  
-  height: 7vh;
+  height: 6vh;
 
 
 }
@@ -613,6 +620,7 @@ button{
   .divboards {
   display: flex;
   flex-direction: column;
+
   gap: 1.5rem;
 }
 
@@ -842,6 +850,10 @@ button{
   }
 
   .divinfotop {
+    padding-bottom: 0;
+  }
+  .divfullservico{
+    padding-top: 0;
     padding-bottom: 0;
   }
 
