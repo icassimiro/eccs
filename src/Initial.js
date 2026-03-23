@@ -8,7 +8,7 @@ const LOADER_DURATION = 4000;
 const EXIT_FADE_DURATION = 600;
 
 /* ============================
-   ASSETS (opcional)
+   ASSETS
 ============================ */
 const HOME_ASSETS = [
   "/images/home/hero.jpg",
@@ -109,14 +109,20 @@ export default function Initial() {
         fadeOut ? "exit" : ""
       }`}
     >
-      <div className="center-text">ECCS</div>
+      <div className="loader-container">
+        <div className="center-text">ECCS</div>
 
-      <div className="loader-bottom">
+        {/* BARRA */}
         <div className="loader-track">
           <div
             className="loader-fill"
             style={{ width: `${progress}%` }}
           />
+        </div>
+
+        {/* PORCENTAGEM */}
+        <div className="loader-percent">
+          {Math.floor(progress)}%
         </div>
       </div>
     </div>
