@@ -7,7 +7,7 @@
   -webkit-tap-highlight-color: transparent;
   background-color: transparent;
 
-    background: #2f4674;
+  
 
 
 }
@@ -30,6 +30,9 @@
   align-items: center;
 
 }
+.section{
+
+}
 
 /* texto grande */
 .eccstext {
@@ -39,7 +42,7 @@
   font-weight: 800;
   margin: 0;
   letter-spacing: 1px;
-  color: #aab2c5;
+  color: #eeeeee;
   z-index: 999;
 }
 
@@ -55,7 +58,6 @@
   opacity: 1;
   z-index: -999;
   filter: drop-shadow(0 10px 45px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 20px rgba(100, 150, 255, 0.4));
-  background-color: transparent;
 }
 
 .divhrinfo {
@@ -69,9 +71,9 @@
 
   width: 500px;
   height: 0.1vh;
-  border: 1px solid #aab2c5;
+  border: 1px solid #eeeeee;
 
-  background-color: #aab2c5;
+  background-color: #eeeeee;
 
 
   margin-top: 2.5rem;
@@ -129,7 +131,8 @@
   cursor: pointer;
   transition: all 1s ease-in-out;
   font-size: 13px;
-  color: #aab2c5;
+  color: #eeeeee;
+
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -146,7 +149,7 @@
 
   transform: scale(1.2);
 
-  color: #aab2c5;
+  color: #eeeeee;
   border: none;
   font-family: "Prompt";
   font-style: italic;
@@ -158,7 +161,7 @@
 .sidebar-line {
   width: 1px;
   height: 40px;
-  background: #aab2c5;
+  background: #eeeeee;
   margin: 6px auto;
   position: relative;
   overflow: hidden;
@@ -177,7 +180,7 @@
 
 /* Linha da seção ativa */
 .sidebar-line.active-line {
-  background-color: #aab2c5;
+  background-color: #eeeeee;
 
 
 
@@ -218,7 +221,7 @@
 /* TEXTO CENTRAL */
 .center-text {
   color: #eeeeee;
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 800;
   letter-spacing: 5px;
 
@@ -248,15 +251,15 @@
 .divsocials {
   display: flex;
   align-items: center;
-  color: #aab2c5;
+  color: #eeeeee;
   font-size: 28px;
-  border-left: 2px solid #aab2c5;
+  border-left: 2px solid #eeeeee;
   gap: 0.3rem;
   padding: 0.5rem;
 }
 
 .socials {
-  color: #aab2c5;
+  color: #eeeeee;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.3px;
@@ -276,7 +279,6 @@ button{
   font-weight: 800;
   font-style: italic;
   line-height: 100%;
-  background-color: transparent;
 
 
 }
@@ -288,14 +290,14 @@ button{
 .zero {
   font-weight: 800;
   font-size: 100px;
-  color: #aab2c5;
+  color: #eeeeee;
   font-style: italic;
 }
 
 .zero1 {
   font-weight: 800;
   font-size: 100px;
-  color: #aab2c5;
+  color: #eeeeee;
   font-style: italic;
   padding-left: 5rem;
   line-height: 150%;
@@ -304,7 +306,7 @@ button{
 .zero4 {
   font-weight: 800;
   font-size: 100px;
-  color: #aab2c5;
+  color: #eeeeee;
   font-style: italic;
   padding-left: 5rem;
 }
@@ -322,8 +324,8 @@ button{
   font-weight: 800;
 
   letter-spacing: 1px;
-  color: #aab2c5;
-  border-left: 2px solid #aab2c5;
+  color: #eeeeee;
+  border-left: 2px solid #eeeeee;
   padding: 1rem;
 
 }
@@ -334,9 +336,9 @@ button{
 
   width: 350px;
   letter-spacing: 0.3px;
-  color: #aab2c5;
+  color: #eeeeee;
   font-style: italic;
-  border-left: 2px solid #aab2c5;
+  border-left: 2px solid #eeeeee;
   margin-left: 5rem;
   padding: 1rem;
 
@@ -347,8 +349,8 @@ button{
   width: 700px;
 
   line-height: 110%;
-  color: #aab2c5;
-  border-left: 2px solid #aab2c5;
+  color: #eeeeee;
+  border-left: 2px solid #eeeeee;
   height: 100%;
   padding-left: 1rem;
   padding-bottom: 1rem;
@@ -427,7 +429,7 @@ button{
 }
 
 .divsocialtop {
-  background-color: #aab2c5;
+  background-color: #eeeeee;
 
 
 
@@ -444,7 +446,7 @@ button{
 .boards {
 
   padding: 3rem;
-  background-color: #aab2c5;
+  background-color: #eeeeee;
   clip-path: polygon(24px 0%,
       100% 0%,
       100% calc(100% - 24px),
@@ -464,7 +466,6 @@ button{
   font-weight: 700;
   letter-spacing: 0.3px;
   line-height: 100%;
-  background-color: transparent;
 }
 
 
@@ -476,7 +477,6 @@ button{
   font-weight: 200;
   line-height: 125%;
   padding-top: 0.6rem;
-  background-color: transparent;
 
 
 
@@ -493,7 +493,6 @@ button{
   font-size: 50px;
   font-weight: 800;
   font-style: italic;
-  background-color: transparent;
 
 
 }
@@ -511,13 +510,13 @@ button{
 
 
   background-color: #2f4674;
-  color: #aab2c5;
+  color: #eeeeee;
 
 
 }
 
 .eccstextinfo {
-  color: #aab2c5;
+  color: #eeeeee;
   font-size: 72px;
   font-weight: 800;
   letter-spacing: 0.5px;
@@ -525,7 +524,7 @@ button{
 }
 
 .siga {
-  color: #aab2c5;
+  color: #eeeeee;
   font-size: 30px;
   font-weight: 800;
   letter-spacing: 0.5px;
@@ -541,7 +540,7 @@ button{
   font-weight: 400;
   padding-top: 3rem;
 
-  color: #aab2c5;
+  color: #eeeeee;
   letter-spacing: 0.5px;
   padding-bottom: 0.1rem;
 }
@@ -843,6 +842,11 @@ button{
     width: 250px;
 
   }
+  .center-text {
+  
+  font-size: 80px;
+ 
+}
 
   .eccs {
     margin-top: 3rem;
