@@ -315,10 +315,10 @@ button{
 }
 
 .eccstexttop {
-  font-size: 22px;
+  font-size: 33px;
   font-weight: 800;
 
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   color: #aab2c5;
   border-left: 2px solid #aab2c5;
   padding: 1rem;
@@ -600,6 +600,13 @@ button{
 
   }
 
+  .buttonwpp {
+ 
+  height: 7vh;
+
+
+}
+
 
 
 
@@ -866,6 +873,17 @@ button{
   }
 
   .wpp {}
+  .infos-title
+  {
+    font-size: 36px;
+  }
+  .boards{
+    width: 290px;
+  }
+  .h2boards{
+    width: 280px;
+    letter-spacing: 0.1px;
+  }
 
 
 
