@@ -458,7 +458,7 @@ button {
   width: 350px;
   letter-spacing: 0.3px;
   color: #eeeeee;
-  font-style: italic;
+
   border-left: 2px solid #eeeeee;
   margin-left: 5rem;
   padding: 1rem;
@@ -769,12 +769,7 @@ button {
     padding-top: 3rem;
   }
 
-  .buttonwpp {
-
-    height: 6vh;
-
-
-  }
+  
 
 
 
@@ -915,7 +910,7 @@ button {
   }
 
   .eccstextbottom {
-    margin-left: 2rem;
+    margin-left: 1rem;
 
   }
 
@@ -989,9 +984,9 @@ button {
   }
 
   .eccstextbottom {
-    font-size: 18px;
-    width: 280px;
-    line-height: 125%;
+    font-size: 20px;
+    width: 290px;
+    line-height: 130%;
   }
 
   .titles {
@@ -1007,10 +1002,7 @@ button {
     width: 200px;
   }
 
-  .infos-title {
-    font-size: 25px;
-  }
-
+  
   .eccstextinfo {
     font-size: 50px;
 
@@ -1054,19 +1046,19 @@ button {
   }
 
   .l2 {
-    transform: translateX(50px);
+    transform: translateX(-30px);
   }
 
   .l3 {
-    transform: translateX(-10px);
-  }
-
-  .l4 {
     transform: translateX(20px);
   }
 
+  .l4 {
+    transform: translateX(-20px);
+  }
+
   .l5 {
-    transform: translateX(-60px);
+    transform: translateX(-30px);
   }
 
   .l6 {
@@ -1076,12 +1068,11 @@ button {
   .wpp {}
 
   .infos-title {
-    font-size: 36px;
+    font-size: 32px;
+    letter-spacing: 0.1px;
   }
 
-  .buttonwpp {
-    height: 5vh;
-  }
+ 
 
   .boards {
     width: 290px;
