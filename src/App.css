@@ -75,7 +75,7 @@
   background-color: #eeeeee;
 
 
-  margin-top: 2.5rem;
+ 
 
 
 
@@ -102,7 +102,7 @@
 
 .sidebar {
   position: fixed;
-  right: 0rem;
+  right: 0.3rem;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -110,8 +110,8 @@
   align-items: center;
   z-index: 999;
   gap: 0.5rem;
-  padding: 1rem;
-  font-style: italic;
+ ;
+
   justify-content: center;
 }
 
@@ -208,7 +208,9 @@ a {
   display: flex;
   justify-content: center;
   background-color: #2f4674;
-  padding-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
 
 }
 
@@ -242,6 +244,7 @@ a {
   border: none;
   width: 265px;
   font-weight: 800;
+
 
 
 
@@ -990,7 +993,10 @@ button {
   }
 
   .titles {
-    font-size: 38px;
+    font-size: 33px;
+  }
+  .strongnumber{
+    font-size: 42px;
   }
 
   .titleservico {
@@ -1080,7 +1086,9 @@ button {
   }
 
   .boards {
-    padding: rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .h2boards {
