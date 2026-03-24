@@ -1,6 +1,6 @@
 export default function Infos() {
     return (
-        <div>
+        <div className="divfull04">
             <div className="divzero">
                 <h2 className="zero4">04</h2>
             </div>
