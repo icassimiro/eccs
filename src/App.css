@@ -525,8 +525,8 @@ button {
 }
 
 .wpp {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   color: #2f4674;
   display: flex;
   align-items: center;
@@ -1028,12 +1028,13 @@ button {
   }
 
   .eccs {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
   }
 
   .divinfotop {
     padding-bottom: 0;
+    padding-top: 2rem;
   }
 
   .divfullservico {
@@ -1072,6 +1073,9 @@ button {
 
   .infos-title {
     font-size: 36px;
+  }
+  .buttonwpp{
+    height: 5vh;
   }
 
   .boards {
