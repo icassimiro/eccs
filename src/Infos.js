@@ -1,6 +1,6 @@
 export default function Infos() {
     return (
-        <div className="divfull04">
+        <div>
             <div className="divzero">
                 <h2 className="zero4">04</h2>
             </div>
@@ -18,12 +18,9 @@ export default function Infos() {
                 </h2>
 
 
-            </div>  
-            <div className="divhrinfo">
-                <hr className="hrinfo"></hr>
             </div>
             <div className="divbutton">
-                <a className="aeccs" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >FALE COM A ECCS</a>
+                <a href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >FALE COM A ECCS</a>
             </div>
             <div className="divhrinfo">
                 <hr className="hrinfo"></hr>

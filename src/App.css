@@ -322,42 +322,42 @@ a {
 ============================ */
 .corner {
   position: absolute;
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: rgba(255, 255, 255, 0.6);
+
+  letter-spacing: 1px;
+  color: #eeeeee;
 }
 
 /* POSIÇÕES */
 .top-left {
   top: 2rem;
   left: 2rem;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .top-right {
   top: 2rem;
   right: 2rem;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .bottom-left {
   bottom: 2rem;
   left: 2rem;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .bottom-right {
   bottom: 2rem;
   right: 2rem;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.5px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 /* ============================
@@ -373,8 +373,8 @@ a {
   color: #eeeeee;
   font-size: 28px;
   border-left: 2px solid #eeeeee;
-  gap: 0.3rem;
-  padding: 0.5rem;
+  gap: 0.5rem;
+  padding: 0.7rem;
 }
 
 .socials {
@@ -650,6 +650,7 @@ button {
   color: #2f4674;
 
 
+
 }
 
 .corner {
@@ -860,12 +861,13 @@ button {
 
   .infos {
     justify-content: start;
+  
 
 
   }
 
   .infos-title {
-    padding-left: 5rem;
+    padding-left: 5rem;  
   }
 
 
