@@ -7,7 +7,7 @@
   -webkit-tap-highlight-color: transparent;
   background-color: transparent;
 
-  
+
 
 
 }
@@ -30,9 +30,8 @@
   align-items: center;
 
 }
-.section{
 
-}
+.section {}
 
 /* texto grande */
 .eccstext {
@@ -158,6 +157,13 @@
 
 }
 
+a {
+  text-decoration: none;
+  border: none;
+  color: #eeeeee;
+  ;
+}
+
 .sidebar-line {
   width: 1px;
   height: 40px;
@@ -197,6 +203,50 @@
 
 
 }
+
+.divbutton {
+  display: flex;
+  justify-content: center;
+  background-color: #2f4674;
+  padding-top: 4rem;
+
+}
+
+.aeccs {
+  background-color: #eeeeee;
+  color: #2f4674;
+  padding: 1rem;
+  width: 280px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+
+  font-size: 28px;
+
+  clip-path: polygon(24px 0%,
+      100% 0%,
+      100% calc(100% - 24px),
+      calc(100% - 24px) 100%,
+      0% 100%,
+      0% 24px);
+}
+
+
+.buttoneccs {
+  font-size: 24px;
+  padding: 1rem;
+  color: #2f4674;
+  ;
+  background-color: #eeeeee;
+  border: none;
+  width: 265px;
+  font-weight: 800;
+
+
+
+}
+
 
 .init-wrapper {
   position: fixed;
@@ -248,7 +298,7 @@
 
 .loader-fill {
   height: 100%;
-  background-color:#2f4674;
+  background-color: #2f4674;
   width: 0%;
   transition: width 0.2s ease;
 }
@@ -257,10 +307,11 @@
 .loader-percent {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
-  letter-spacing:1px;
+  letter-spacing: 1px;
   font-style: italic;
   font-weight: 300px;
 }
+
 .divsocials {
   display: flex;
   align-items: center;
@@ -280,10 +331,15 @@
 
 
 }
-a{
+
+a {
   cursor: pointer;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
 }
-button{
+
+button {
   cursor: pointer;
 }
 
@@ -380,12 +436,7 @@ button{
   height: 85vh;
   background-color: #2f4674;
   padding-left: 5rem;
-
-
-
-
 }
-
 
 
 
@@ -433,11 +484,12 @@ button{
 
 .buttonwpp {
   border: none;
-  height: 5vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
   width: 145px;
+
 
 }
 
@@ -620,38 +672,39 @@ button{
   }
 
   .buttonwpp {
- 
-  height: 6vh;
+
+    height: 6vh;
 
 
-}
+  }
 
 
 
 
   .divboards {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  gap: 1.5rem;
-}
+    gap: 1.5rem;
+  }
 
-/* 2º board */
-.divboards > *:nth-child(2) {
-  margin-left:10rem;
-}
+  /* 2º board */
+  .divboards>*:nth-child(2) {
+    margin-left: 10rem;
+  }
 
-/* 3º board */
-.divboards > *:nth-child(3) {
-  margin-left: 20rem;
-}
-.eccsimg{
-  width: 450px;
-}
+  /* 3º board */
+  .divboards>*:nth-child(3) {
+    margin-left: 20rem;
+  }
+
+  .eccsimg {
+    width: 450px;
+  }
 
 
   .color {
-   
+
     height: 100%;
   }
 
@@ -680,15 +733,20 @@ button{
   .infos-title {
     font-size: 60px;
   }
-  /* 2º board */
-.divboards > *:nth-child(2) {
-  margin-left:0rem;
-}
 
-/* 3º board */
-.divboards > *:nth-child(3) {
-  margin-left: 0rem;
-}
+  /* 2º board */
+  .divboards>*:nth-child(2) {
+    margin-left: 0rem;
+  }
+
+  /* 3º board */
+  .divboards>*:nth-child(3) {
+    margin-left: 0rem;
+  }
+
+
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -696,6 +754,8 @@ button{
     margin-top: 4rem;
 
   }
+
+
 
   .titleservico {
     font-size: 45px;
@@ -729,7 +789,7 @@ button{
 
   .boards {
     width: 310px;
-    padding: 2rem;
+
   }
 
   .color {
@@ -737,7 +797,7 @@ button{
   }
 
   .zero1 {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   .h2boards {
@@ -749,11 +809,11 @@ button{
   }
 
   .divinfotop {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .divfullservico {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .eccstextbottom {
@@ -761,9 +821,16 @@ button{
 
   }
 
+  .titles {
+    font-size: 32px;
+  }
+
+  .socialinfo {}
+
   .infos-title {
     padding-left: 2rem;
     font-size: 50px;
+    text-align: right;
   }
 
   .eccstextinfo {
@@ -775,7 +842,7 @@ button{
   }
 
   .l2 {
-    transform: translateX(80px);
+    transform: translateX(0px);
   }
 
   .l3 {
@@ -795,7 +862,7 @@ button{
   }
 
   .zero4 {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   .hrinfo {
@@ -829,6 +896,10 @@ button{
     line-height: 125%;
   }
 
+  .titles {
+    font-size: 38px;
+  }
+
   .titleservico {
     font-size: 34px;
     width: 300px;
@@ -855,11 +926,12 @@ button{
     width: 250px;
 
   }
+
   .center-text {
-  
-  font-size: 80px;
- 
-}
+
+    font-size: 80px;
+
+  }
 
   .eccs {
     margin-top: 3rem;
@@ -869,7 +941,8 @@ button{
   .divinfotop {
     padding-bottom: 0;
   }
-  .divfullservico{
+
+  .divfullservico {
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -902,14 +975,16 @@ button{
   }
 
   .wpp {}
-  .infos-title
-  {
+
+  .infos-title {
     font-size: 36px;
   }
-  .boards{
+
+  .boards {
     width: 290px;
   }
-  .h2boards{
+
+  .h2boards {
     width: 280px;
     letter-spacing: 0.1px;
   }

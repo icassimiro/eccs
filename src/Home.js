@@ -9,7 +9,7 @@ export default function Home() {
 
                 </div>
 
-                <div className="divsocialtop"><button className="buttonwpp"><h2 className="wpp">Whatsapp <AiOutlineWhatsApp className="iconssocial" /></h2></button></div>
+                <div className="divsocialtop"><a href="https://wa.me/31992479224" target="_blank" rel="noreferrer" ><h2 className="wpp">Whatsapp <AiOutlineWhatsApp className="iconssocial" /></h2></a></div>
 
             </div>
             <div className="divzero">  <h2 className="zero1">01</h2></div>

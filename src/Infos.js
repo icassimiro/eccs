@@ -17,6 +17,10 @@ export default function Infos() {
                     <span className="l6">e Eficiência</span>
                 </h2>
 
+
+            </div>
+            <div className="divbutton">
+                <a className="aeccs" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >FALE COM A ECCS</a>
             </div>
             <div className="divhrinfo">
                 <hr className="hrinfo"></hr>

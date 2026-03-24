@@ -12,16 +12,26 @@ export default function Social() {
                 <div>
                     <h2 className="siga">Siga-nos</h2>
                     <div className="divsocials">
-                        <FaInstagramSquare />
-                        <h2 className="socials">Instagram</h2>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/eccs_gdoc/">
+                            <FaInstagramSquare />
+
+                            <h2 className="socials">Instagram</h2>
+                        </a>
+
                     </div>
                     <div className="divsocials">
-                        <FaLinkedin />
-                        <h2 className="socials">Linkedin</h2>
+                        <a>
+                            <FaLinkedin />
+
+                            <h2 className="socials">Linkedin</h2>
+                        </a>
                     </div>
                     <div className="divsocials">
-                        <RiWhatsappFill />
-                        <h2 className="socials">Whatsapp</h2>
+                        <a href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >
+                            <RiWhatsappFill />
+
+                            <h2 className="socials">Whatsapp</h2>
+                        </a>
                     </div>
 
                 </div>
