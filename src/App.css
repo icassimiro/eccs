@@ -323,7 +323,7 @@ a {
 .corner {
   position: absolute;
 
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
   color: #eeeeee;
 }
 
@@ -333,7 +333,7 @@ a {
   left: 2rem;
   font-size: 14px;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .top-right {
@@ -926,7 +926,7 @@ button {
   .socialinfo {}
 
   .infos-title {
-    padding-left: 2rem;
+    padding-left: 1rem;
     font-size: 50px;
     text-align: right;
   }
@@ -1083,7 +1083,7 @@ button {
  
 
   .boards {
-    width: 290px;
+    width: 82%;
 
   }
 
@@ -1094,7 +1094,7 @@ button {
   }
 
   .h2boards {
-    width: 280px;
+    width: 77%;
     letter-spacing: 0.1px;
   }
 
