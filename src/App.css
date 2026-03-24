@@ -365,9 +365,9 @@ a {
 .bottom-right {
   bottom: 2rem;
   right: 2rem;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* ============================
