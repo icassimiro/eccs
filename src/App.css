@@ -1101,9 +1101,8 @@ button {
   }
 
   .boards {
-    padding: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 1.5rem;
+    
   }
 
   .h2boards {
