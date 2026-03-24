@@ -1080,6 +1080,10 @@ button {
 
   .boards {
     width: 290px;
+    
+  }
+  .boards{
+    padding: 2rem;
   }
 
   .h2boards {
