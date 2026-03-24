@@ -109,6 +109,12 @@ export default function Initial() {
         fadeOut ? "exit" : ""
       }`}
     >
+      {/* CANTOS */}
+      <div className="corner top-left">ECCS</div>
+      <div className="corner top-right">GDOC</div>
+      <div className="corner bottom-left">GESTÃO</div>
+      <div className="corner bottom-right">DOCUMENTAL</div>
+
       <div className="loader-container">
         <div className="center-text">ECCS</div>
 

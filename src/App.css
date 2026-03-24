@@ -248,13 +248,21 @@ a {
 }
 
 
+/* ============================
+   WRAPPER
+============================ */
 .init-wrapper {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
   background: #2f4674;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   opacity: 0;
   transition: opacity 0.6s ease;
   z-index: 9999;
@@ -268,48 +276,92 @@ a {
   opacity: 0;
 }
 
-/* CONTAINER CENTRAL */
+/* ============================
+   LOADER
+============================ */
 .loader-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-  width: 90%;
-  max-width: 400px;
+  text-align: center;
 }
 
-/* TEXTO ECCS */
 .center-text {
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 800;
-  color: white;
-  letter-spacing: 0.2rem;
   font-size: 100px;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  color: #EEEEEE;
+  font-weight: 800;
 }
 
 /* BARRA */
 .loader-track {
-  width: 40%;
+  width: 150px;
   height: 2px;
-  background: #eeeeee;
-  border-radius: 10px;
+  background: #2f4674;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .loader-fill {
   height: 100%;
-  background-color: #2f4674;
-  width: 0%;
-  transition: width 0.2s ease;
+  background: white;
+  transition: width 0.1s linear;
 }
 
 /* PORCENTAGEM */
 .loader-percent {
-  font-size: 15px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
-  letter-spacing: 1px;
-  font-style: italic;
-  font-weight: 300px;
+  font-weight: 700;
+}
+
+/* ============================
+   TEXTOS NOS CANTOS
+============================ */
+.corner {
+  position: absolute;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* POSIÇÕES */
+.top-left {
+  top: 2rem;
+  left: 2rem;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.top-right {
+  top: 2rem;
+  right: 2rem;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.bottom-left {
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.bottom-right {
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+/* ============================
+   EFEITO SUAVE
+============================ */
+.init-wrapper.visible .corner {
+  opacity: 1;
 }
 
 .divsocials {
@@ -582,6 +634,16 @@ button {
 
 
 }
+
+.corner {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.init-wrapper.visible .corner {
+  opacity: 1;
+}
+
 .eccstextinfo {
   color: #eeeeee;
   font-size: 72px;
@@ -633,6 +695,7 @@ button {
 
 
 }
+
 .infos-title span {
   display: inline-block;
   padding: 0.6rem 1.5rem;
@@ -641,7 +704,7 @@ button {
   background: #eeeeee;
   color: #2f4674;
   border-radius: 4px;
-   clip-path: polygon(24px 0%,
+  clip-path: polygon(24px 0%,
       100% 0%,
       100% calc(100% - 24px),
       calc(100% - 24px) 100%,
