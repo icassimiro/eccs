@@ -9,7 +9,7 @@ export default function Social() {
 
             <h2 className="zero4">05</h2>
             <div className="socialinfo">
-                <div>
+                <div className="divsiga">
                     <h2 className="siga">Siga-nos</h2>
                     <div className="divsocials">
                         <a target="_blank" rel="noreferrer" href="https://www.instagram.com/eccs_gdoc/">

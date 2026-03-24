@@ -20,11 +20,9 @@ export default function Infos() {
 
             </div>
             <div className="divbutton">
-                <a href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >FALE COM A ECCS</a>
+                <a className="buttoneccs" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" >FALE COM A ECCS</a>
             </div>
-            <div className="divhrinfo">
-                <hr className="hrinfo"></hr>
-            </div>
+         
         </div>
 
     );

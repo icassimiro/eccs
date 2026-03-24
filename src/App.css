@@ -237,13 +237,22 @@ a {
 
 .buttoneccs {
   font-size: 24px;
-  padding: 1rem;
+  padding: 1.2rem;
   color: #2f4674;
-  ;
-  background-color: #eeeeee;
+  
+  background-color: #56baf0;
   border: none;
-  width: 265px;
-  font-weight: 800;
+  width: 260px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    filter: drop-shadow(0 10px 45px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 20px rgba(100, 150, 255, 0.4));
+    border-radius: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
 
 
 
@@ -685,11 +694,15 @@ button {
 .copy {
   font-size: 12px;
   font-weight: 400;
-  padding-top: 3rem;
+ 
 
   color: #eeeeee;
   letter-spacing: 0.5px;
   padding-bottom: 0.1rem;
+}
+.divsiga{
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
 }
 
 .socialinfo {
