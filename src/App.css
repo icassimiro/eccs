@@ -412,14 +412,14 @@ button {
   font-weight: 800;
   font-size: 100px;
   color: #eeeeee;
-  font-style: italic;
+
 }
 
 .zero1 {
   font-weight: 800;
   font-size: 100px;
   color: #eeeeee;
-  font-style: italic;
+
   padding-left: 5rem;
   line-height: 150%;
 }
@@ -428,7 +428,7 @@ button {
   font-weight: 800;
   font-size: 100px;
   color: #eeeeee;
-  font-style: italic;
+
   padding-left: 5rem;
 }
 
@@ -540,20 +540,23 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 155px;
-  padding: 0.3rem;
+  width: 100%;
+  padding: 1rem;
 
 
 
 
 }
-.divsocialtop{  clip-path: polygon(24px 0%,
+
+.divsocialtop {
+  clip-path: polygon(24px 0%,
       100% 0%,
       100% calc(100% - 24px),
       calc(100% - 24px) 100%,
       0% 100%,
       0% 24px);
- 
+
+
 }
 
 
@@ -761,7 +764,8 @@ button {
 
 
   }
-  .divinfotop{
+
+  .divinfotop {
     padding-top: 3rem;
   }
 
@@ -1074,16 +1078,18 @@ button {
   .infos-title {
     font-size: 36px;
   }
-  .buttonwpp{
+
+  .buttonwpp {
     height: 5vh;
   }
 
   .boards {
     width: 290px;
-    
+
   }
-  .boards{
-    padding: 2rem;
+
+  .boards {
+    padding: rem;
   }
 
   .h2boards {

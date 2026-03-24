@@ -1,5 +1,8 @@
 import eccs from "./Images/eccs.png"; import { BsInstagram } from "react-icons/bs";
+import { RiWhatsappFill } from "react-icons/ri";
+
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 export default function Home() {
     return (
         <div className="color">
@@ -9,7 +12,7 @@ export default function Home() {
 
                 </div>
 
-                <div className="divsocialtop"><a className="buttonwpp" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" ><h2 className="wpp">WHATSAPP <AiOutlineWhatsApp className="iconssocial" /></h2></a></div>
+                <div className="divsocialtop"><a className="buttonwpp" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" ><h2 className="wpp"> <RiWhatsappFill className="iconssocial" /></h2></a><a className="buttonwpp" href="https://wa.me/31992479224" target="_blank" rel="noreferrer" ><h2 className="wpp"> <FaLinkedin className="iconssocial" /></h2></a></div>
 
             </div>
             <div className="divzero">  <h2 className="zero1">01</h2></div>
