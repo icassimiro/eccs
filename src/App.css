@@ -1104,11 +1104,13 @@ button {
 
   .boards {
     padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     
   }
 
   .h2boards {
-    width: 85%;
+    width: 90%;
     letter-spacing: 0.1px;
   }
 
