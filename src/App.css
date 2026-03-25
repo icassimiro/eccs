@@ -387,6 +387,39 @@ a {
   padding: 0.7rem;
 }
 
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #2f4674;
+    padding: 2rem 0;
+}
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 18rem;
+
+    animation: marqueeMove 25s linear infinite;
+}
+
+.marquee-track span {
+    font-size: 28px;
+    font-weight: 500;
+    color: #eeeeee; /* blue */
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+/* animação contínua */
+@keyframes marqueeMove {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 .socials {
   color: #eeeeee;
   font-size: 16px;

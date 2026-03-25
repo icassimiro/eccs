@@ -3,6 +3,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 
 import { FaInstagramSquare } from "react-icons/fa";
+import Marque from "./Marque";
 export default function Social() {
     return (<div className="divsocial">
         <div className="divzero">
@@ -39,6 +40,7 @@ export default function Social() {
                     <h2 className="eccstextinfo">ECCS GDOC</h2>
                 </div>
             </div>
+            <Marque/>
             <div className="divcopy"><h2 className="copy">©ECCS 2026.</h2></div>
         </div>
     </div>)
